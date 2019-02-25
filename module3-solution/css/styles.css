@@ -1,0 +1,92 @@
+body {
+	color: black;
+}
+#header-nav {
+	background-color: #999999;
+	border-bottom: 2px solid black;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+.navbar-brand h1 {
+	position: absolute;
+	color: black;
+	font-weight: 700;
+	margin-top: 0;
+	margin-left: 0;
+	left: 40px;
+	top: 10px;
+}
+.navbar-collapse {
+	border-color: transparent;
+	border: none;
+}
+#collapsable-nav {
+	-webkit-box-shadow: black;
+	box-shadow: none;
+	border: none;
+}
+#nav-list {
+	text-align: center;
+  	margin-top: 10px;
+  	padding: 0;
+  	margin-bottom: 0;
+}
+#nav-list a {
+	color: black;
+  	text-align: center;
+  	border-top: 2px solid black;
+  	display: grid;
+}
+#nav-list a:hover {
+  	background: #E7E7E7;
+}
+#nav-list a span {
+  	font-size: 10em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 2px solid black;
+}
+.navbar-header button.navbar-toggle {
+	clear: both;
+  	margin-top: -38px;
+}
+h2 {
+	text-align: center;
+	font-weight: 700;
+}
+h3 {
+	text-align: center;
+	font-weight: 700;
+	background-color: #999999;
+	padding-top: 10px;
+}
+#main-content {
+	width: 100%;
+}
+#menu-tile {
+	width: 100%;
+  	padding-left: 20px;
+  	padding-right: 20px;
+  	padding-bottom: 0;
+  	background-position: center;
+  	background-color: #999999;
+  	display: inline-block
+  	margin-top: 0;
+  	margin-bottom: 20px;
+}
+#menu-tile p {
+  	font-weight: 600;
+}
+
+/********** Small devices and above **********/
+@media (min-width: 768px) {
+  #nav-list a {
+  	visibility: hidden;
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  #nav-list a {
+  	visibility: visible;
+  }
+}
